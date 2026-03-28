@@ -1,0 +1,202 @@
+{
+  "info": {
+    "_postman_id": "8617fa2f-6e9d-436d-ae74-a22a078de114",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52570948",
+    "_collection_link": "https://go.postman.co/collection/52570948-8617fa2f-6e9d-436d-ae74-a22a078de114?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "7a59229b-7042-40b5-9ae6-17c9461c3737",
+              "src": "/C:/Users/abhik/Downloads/GRN.pdf"
+            },
+            {
+              "key": "documentType",
+              "value": "grn",
+              "type": "text",
+              "uuid": "19529a0d-0f35-4de7-80bc-0041e38b9bd6"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/documents/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "documents",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": null,
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "7359ccb2-0f90-46cd-aee7-a2d236fd2f10",
+              "src": "/C:/Users/abhik/Downloads/Invoice.pdf"
+            },
+            {
+              "key": "documentType",
+              "value": "invoice",
+              "type": "text",
+              "uuid": "6c19c670-4a9b-4e4a-b0a9-d55f21f52662"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/documents/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "documents",
+            "upload"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "7359ccb2-0f90-46cd-aee7-a2d236fd2f10",
+              "src": "/C:/Users/abhik/Downloads/PO.pdf"
+            },
+            {
+              "key": "documentType",
+              "value": "po",
+              "type": "text",
+              "uuid": "6c19c670-4a9b-4e4a-b0a9-d55f21f52662"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/documents/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "documents",
+            "upload"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "7359ccb2-0f90-46cd-aee7-a2d236fd2f10",
+              "src": "/C:/Users/abhik/Downloads/PO.pdf"
+            },
+            {
+              "key": "documentType",
+              "value": "po",
+              "type": "text",
+              "uuid": "6c19c670-4a9b-4e4a-b0a9-d55f21f52662"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:3000/documents/69c8332551926e5dec49c42f?type=invoice",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "documents",
+            "69c8332551926e5dec49c42f"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": null,
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "type",
+              "value": "invoice"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/match/CI4PO05788",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "match",
+            "CI4PO05788"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
